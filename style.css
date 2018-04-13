@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    font-family: 'Lato',sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+/* Sekcja hero */
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url(img/HPhero.jpg) no-repeat center;
+}
+
+.navi {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    letter-spacing: 1px;
+}
+
+.logo {
+    margin: 15px 0 0 15px;
+}
+
+.logo img {
+    width: 300px;
+    height: 80px;
+}
+
+.menu {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.elementMenu {
+    color: white;
+    margin-right: 60px;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.elementMenu a {
+  color:white;
+}
+
+.elementMenu:hover {
+    color: #FFAD38;
+    cursor: pointer;
+}
+
+/* Sekcja About Autor */
+
+#aboutAutor {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: black;
+}
+
+.contentAutor {
+    display: flex;
+    padding: 30px 50px 0 50px;
+    justify-content: center;
+}
+
+.headerAutor {
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.photoAutor {
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+}
+
+.photoAutor img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+
+.textAutor {
+    width: 800px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* Sekcja o Domach */
+
+.domy {
+    width: 100%;
+    max-height: 800px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.domy img{
+    width: 600px;
+   height: 400px;
+   padding-top: 40px;
+}
+
+.domy ul {
+    text-align: center;
+    padding: 0;
+}
+
+.domy ul > li {
+    list-style: none;
+    text-align: center;
+    text-decoration-color: none;
+}
+
+.domy a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1.8px;
+}
+
+.dom_content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 100px;
+    font-size: 25px;
+}
+
+/* Galeria */
+
+#gallery {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: black;
+}
+
+.headerGallery {
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.contentElements {
+    display: flex;
+    width: 94%;
+    flex-wrap: wrap;
+    margin: 0 50px;
+}
+
+.elementGallery {
+    width: 340px;
+    height: 300px;
+    margin: 10px 5px 0 5px;
+}
+
+.elementGallery img {
+    width: 340px;
+    height: 300px;
+    border-radius: 5%;
+    position: absolute;
+
+}
+
+.backgroundElement {
+    display: none;
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 300px;
+}
+
+.titlePhoto {
+    color: #ffffff;
+    height: 300px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementGallery:hover .backgroundElement {
+    display: flex;
+}
+
+/* Filmy */
+.chapters {
+    width: 100%;
+    padding-top: 40px;
+    background-color: #000000
+}
+
+.headerChapter {
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: white;
+}
+
+.elementsChapter {
+    width: 100%;
+    display: flex;
+    margin: 50px 100px 0 100px;
+    flex-wrap: wrap;
+}
+
+.chapter {
+    width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.chapter:hover .titleChapter {
+    text-decoration: underline;
+    text-decoration-color: #FFAD38;
+    color: #FFAD38;
+}
+
+.photoChapter img {
+    width: 200px;
+    height: 250px;
+}
+
+.titleChapter {
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 15px;
+    padding-top: 10px;
+}
